@@ -1,0 +1,276 @@
+
+
+    .logo{
+    font-size:35px;
+    font-weight:900;
+}
+
+.logo span{
+    color:aqua;
+}
+
+.logo{
+    color:white;
+    text-shadow: 0 0 15px aqua;
+    ;
+}
+.line{
+display: flex;
+overflow: hidden;
+background-color: black;
+box-shadow: 0px 0px 15px black  ;
+
+
+  align-items: center;
+padding: 10px;
+gap: 200px;
+
+}
+.p {
+    font-size:25px;
+    font-weight:300;
+    padding:100px;
+text-decoration: none;
+color: white;
+gap: 500%;
+overflow: hidden;
+
+
+
+
+} 
+nav a:hover{
+    color: aqua;
+    box-shadow: 0 0 20px white;
+    overflow: hidden;
+    
+
+}
+.home{
+    min-height: 90vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #0d1117;
+    color: white;
+    padding: 0 10%;
+}
+
+.home-content h3{
+    font-size: 25px;
+}
+
+.home-content h1{
+    font-size: 60px;
+    color: aqua;
+    margin: 10px 0;
+}
+
+.home-content span{
+    color: aqua;
+}
+
+.home-content p{
+    max-width: 500px;
+    line-height: 1.8;
+    margin: 20px 0;
+}
+
+.home-img img{
+    width: 350px;
+    height: 350px;
+    
+    border-radius: 50%;
+    border: 4px solid aqua;
+    box-shadow: 0 0 30px aqua;
+}
+
+.btn{
+    display: inline-block;
+    padding: 12px 25px;
+    background: aqua;
+    color: black;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.btn:hover{
+    box-shadow: 0 0 20px aqua;
+}
+#about{
+    background:#161b22;
+    color:white;
+    padding:100px 10%;
+}
+
+.heading{
+    text-align:center;
+    font-size:45px;
+    margin-bottom:50px;
+}
+
+.heading span{
+    color:aqua;
+}
+
+.about-container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:50px;
+    flex-wrap:wrap;
+}
+
+.about-img img{
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    object-fit:cover;
+    border:4px solid aqua;
+    box-shadow:0 0 25px aqua;
+}
+
+.about-content{
+    max-width:600px;
+}
+
+.about-content h3{
+    font-size:30px;
+    margin-bottom:15px;
+}
+
+.about-content p{
+    line-height:1.8;
+    font-size:18px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:aqua;
+    color:black;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+}#about{
+    background:#161b22;
+    color:white;
+    padding:100px 10%;
+}
+
+.heading{
+    text-align:center;
+    font-size:45px;
+    margin-bottom:50px;
+}
+
+.heading span{
+    color:aqua;
+}
+
+.about-container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:50px;
+    flex-wrap:wrap;
+}
+
+.about-img img{
+    width:300px;
+    height:300px;
+    border-radius:50%;
+    object-fit:cover;
+    border:4px solid aqua;
+    box-shadow:0 0 25px aqua;
+}
+
+.about-content{
+    max-width:600px;
+}
+
+.about-content h3{
+    font-size:30px;
+    margin-bottom:15px;
+}
+
+.about-content p{
+    line-height:1.8;
+    font-size:18px;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 25px;
+    background:aqua;
+    color:black;
+    text-decoration:none;
+    border-radius:30px;
+    font-weight:bold;
+}
+#skills{
+    padding:100px 10%;
+    background:#0d1117;
+    color:white;
+}
+
+.skills-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+    margin-top:40px;
+}
+
+.skill-box{
+    background:#161b22;
+    padding:30px;
+    border-radius:15px;
+    text-align:center;
+    transition:0.4s;
+    border:2px solid transparent;
+}
+
+.skill-box:hover{
+    transform:translateY(-10px);
+    border-color:aqua;
+    box-shadow:0 0 20px aqua;
+}
+
+.skill-box h3{
+    color:aqua;
+    margin-bottom:15px;
+}
+footer{
+    background:#161b22;
+    padding:25px 10%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.footer-text p{
+    color:white;
+}
+
+.footer-social{
+    display:flex;
+    gap:20px;
+}
+
+.footer-social a{
+    text-decoration:none;
+    color:white;
+    transition:0.3s;
+}
+
+.footer-social a:hover{
+    color:aqua;
+    text-shadow:0 0 10px aqua;
+}
+
+
