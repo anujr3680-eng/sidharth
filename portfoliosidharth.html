@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>my portfiolo</title>
+    <style>
+       /*body{
+        background-image:
+    linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url("https://wallpaperaccess.com/full/95233.jpg");
+    
+
+    
+       }*/
+       .section1{
+
+        background-image:
+    linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url("https://wallpaperaccess.com/full/95233.jpg");
+       }
+#limg{
+
+    width:400px;
+    height:400px;
+    border-radius:50%;
+    
+    
+   box-shadow:0 0 25px rgb(98, 43, 2);
+
+
+
+}
+
+#limg{
+    
+    position: relative;
+    top: 210px;
+    left: 150px;
+    
+ 
+}
+.text{
+    color: white;
+    margin-left: 600px;
+    position: relative;
+    bottom: 150px;
+    
+}
+
+nav a{
+
+   
+text-decoration: none;
+ color: white;
+ font-size:30px ;
+ font-weight:20px ;
+ 
+}
+.profile{
+    transition:0.4s;
+}
+
+.profile:hover{
+    transform:scale(1.05);
+}
+nav{
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    gap:150px;
+    padding:20px;
+    
+}
+.profile{
+    box-shadow:
+    0 0 20px #ff0000,
+    0 0 40px #ff0000;
+}
+.text h1{
+    color:white;
+    text-shadow:0 0 15px #ff0000;
+}
+
+nav img{
+
+    
+width:45px;
+    height:45px;
+    border-radius:50%;
+    
+    position:absolute;
+    left:40px;
+    top:20px;
+}
+span{
+    color:#ff4d4d;
+}
+nav a:hover{
+    color:#ff0000;
+    text-shadow:0 0 10px red;
+    
+    transition:0.3s;
+}
+
+
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    padding:12px 28px;
+    color:white;
+    text-decoration:none;
+    border:2px solid #ff0000;
+    border-radius:30px;
+    box-shadow:0 0 15px #ff0000;
+    transition:0.4s;
+    
+}
+
+.btn:hover{
+    background:#ff0000;
+    transform:translateY(-5px);
+}
+
+
+.baap{
+    gap: 10px;
+}
+.about{
+    background-color: rgb(40, 26, 26);
+    width: 100%;
+    height: 100vh;
+color: beige;
+text-align: center;
+gap: ;
+}
+.about h1{
+    font-size:50px;
+    color:#ff0000;
+    text-shadow:0 0 15px #ff0000;
+    margin-bottom:30px;
+text-align: center;
+h1,h2,h3,h4,p{
+    line-height: 10px;
+}
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+
+    
+.skill{
+     background:red;
+}
+#skills{
+    padding:100px 10%;
+    background:#0d1117;
+    color:white;
+}
+
+.skills-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+    margin-top:40px;
+}
+
+.skill-box{
+    background:#161b22;
+    padding:30px;
+    border-radius:15px 50px;
+    text-align:center;
+    transition:0.4s;
+    border:2px solid transparent;
+}
+
+.skill-box:hover{
+    transform:translateY(-10px);
+    border-color:aqua;
+    box-shadow:0 0 20px aqua;
+}
+
+.skill-box h3{
+    color:aqua;
+    margin-bottom:15px;
+}
+
+#project h1{
+    text-align: center;
+    color:red;
+    background-color: rgb(56, 35, 35);
+   
+}
+.dhar{ 
+    border: 2px solid blue;
+
+}
+#project{
+    background:#0d1117;
+    padding:100px 10%;
+    color:white;
+}
+
+.project-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+    margin-top:40px;
+}
+
+.project-card{
+    background:#161b22;
+    border-radius:20px;
+    overflow:hidden;
+    text-align:center;
+    transition:0.4s;
+    border:2px solid transparent;
+}
+
+.project-card:hover{
+    transform:translateY(-10px);
+    border-color:#ff0000;
+    box-shadow:0 0 25px #ff0000;
+}
+
+.project-card img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    position:static;
+    border-radius:0;
+}
+
+.project-card h3{
+    color:#ff4d4d;
+    margin:15px 0;
+}
+
+.project-card p{
+    padding:0 20px;
+}
+
+.project-card .btn{
+    margin:20px;
+}
+#contact{
+    background:#0d1117;
+    padding:80px 10%;
+    text-align:center;
+    color:white;
+}
+
+#contact h2{
+    font-size:45px;
+    margin-bottom:30px;
+}
+
+.contact-box{
+    background:#161b22;
+    padding:30px;
+    border-radius:20px;
+    border:2px solid #ff0000;
+    box-shadow:0 0 20px #ff0000;
+}
+
+.contact-box p{
+    font-size:20px;
+    margin:15px 0;
+}
+
+.links{
+    margin-top:25px;
+}
+
+.links a{
+    color:white;
+    text-decoration:none;
+    margin:0 15px;
+    font-size:20px;
+    transition:0.3s;
+}
+
+.links a:hover{
+    color:#ff0000;
+    text-shadow:0 0 10px #ff0000;
+}
+
+    </style>
+</head>
+<body>
+    <section class="section1">
+<nav class="nav">
+    
+        <img src="https://cdn.vectorstock.com/i/500p/77/73/sk-monogram-logo-template-vector-54427773.jpg" alt="" class="profile">
+        
+    <a href="#section1">Home</a>
+    <a href="#about">About</a>
+    <a href="#skills">skills</a>
+    <a href="#project">projects</a>
+    <a href="#contact">contact</a>
+
+</nav>
+<div class="baap">
+<div class="img">
+<img src="sidhu.jpg" alt="my photo" class="profile " id="limg">
+</div>
+<div class="text" ><h3>Hello, It's Me</h3>
+
+        <h1>Sidharth Kumar</h1>
+
+        <h3>And I'm a <span>Web Developer</span></h3>
+        <h1><span>I am diploma student</span></h1>
+
+        <h3>
+            I am a Computer Science Engineering student.
+
+
+            Currently learning HTML, CSS, JavaScript to create a beautiful.
+        </h3>
+                    <a href="#about" class="btn">My Journey </a>
+<a href="#projects" class="btn">Explore My Work </a>
+
+    </div>
+        </div>
+    
+</section>
+<section class="about" id="about">
+
+    <div class="about-content">
+
+        <h1>About <span>Me</span></h1>
+
+        <h2>
+            Hello! I'm <span>Sidharth Kumar</span>, a passionate Diploma Computer Science Engineering student from Samastipur, Bihar.
+        </h2>
+
+        <h3>
+            I am currently learning HTML, CSS, JavaScript, Python, and Data Structures & Algorithms to build modern websites and improve my programming skills.
+        </h4>
+
+        <h4>
+            I enjoy creating web projects, exploring new technologies, solving coding problems, and continuously improving myself every day.
+        </h4>
+
+        <p>
+            My goal is to become a skilled Software Engineer and work on innovative projects in organizations like <span>ISRO</span>.
+        </p>
+
+
+
+</section>
+<section id="skills" class="skill">
+
+    <h2 class="heading">My <span>Skills</span></h2>
+
+    <div class="skills-container">
+
+        <div class="skill-box">
+            <h3>HTML</h3>
+            <p>Structure and semantic web pages.</p>
+        </div>
+
+        <div class="skill-box">
+            <h3>CSS</h3>
+            <p>Responsive and modern UI design.</p>
+        </div>
+
+        <div class="skill-box">
+            <h3>JavaScript</h3>
+            <p>Interactive web applications.</p>
+        </div>
+
+        <div class="skill-box">
+            <h3>C</h3>
+            <p>Programming fundamentals.</p>
+        </div>
+
+        <div class="skill-box">
+            <h3>python</h3>
+            <p>make a ai . <br> Developing problem-solving skills, automation scripts, and exploring AI <br> technologies with Python Using Python for automation, problem-solving, and exploring artificial intelligence technologies.Using Python for automation, problem-solving, and exploring artificial intelligence technologies.Using Python for automation, problem-solving, and exploring artificial intelligence technologies. <br>
+                Using Python for automation, problem-solving, and exploring artificial intelligence technologies. <br>Using Python for automation, problem-solving, and exploring artificial intelligence technologies.Using Python for automation, problem-solving, and exploring artificial intelligence technologies.Using Python for automation, problem-solving, and exploring artificial intelligence t</p>
+        </div>
+
+        <div class="skill-box">
+            <h3>DSA</h3>
+            <p>Problem solving and algorithms.<br>Data Structures & Algorithms (DSA) is one of the most important areas of computer science. It helps me develop strong logical thinking, problem-solving abilities, and efficient coding practices. Through DSA, I learn how to organize data effectively and design optimized solutions for complex programming challenges. Studying algorithms improves my analytical skills and enables me to write faster, cleaner, and more efficient code. I continuously practice DSA to strengthen my programming foundation and prepare for real-world software development and technical interviews. It plays a vital role in building scalable applications and becoming a better software engineer. 🚀💻</p>
+        </div>
+       
+    <div class="skills-container">
+
+        <div class="skill-box">
+            <h3>Video Editing</h3>
+            <p>Creating engaging videos with smooth transitions and effects.</p>
+        </div>
+
+        <div class="skill-box">
+            <h3>Photo Editing</h3>
+            <p>Enhancing images and creating attractive visual content.</p>
+        </div>
+
+        <div class="skill-box">
+            <h3>Content Creation</h3>
+            <p>Creating creative and engaging digital content.</p>
+        </div>
+
+    </div>
+
+
+    </div>
+
+    
+</section>
+
+
+
+    <section id="project">
+
+    <h2 class="heading">My <span>Projects</span></h2>
+
+    <div class="project-container">
+
+        <div class="project-card">
+            <img src="wether.jpg.jpeg" >
+
+            <h3>Weather App</h3>
+
+            <p>
+                Real-time weather application using HTML, CSS and JavaScript.
+            </p>
+
+            <a href="wether.html" class="btn">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <img src="vegimart.jpg.jpeg" >
+
+            <h3>vegimart</h3>
+
+            <p>
+                Modern e-commerse website with responsive design and smooth UI.
+            </p>
+
+            <a href="vegimartonline.html" class="btn">View Project</a>
+        </div>
+
+        <div class="project-card">
+            <img src="u.jpg.jpeg">
+
+            <h3>Portfolio Website</h3>
+
+            <p>
+                Personal portfolio showcasing skills, projects and achievements.
+            </p>
+
+            <a href="portfoliosidharth.html" class="btn">View Project</a>
+        </div>
+
+    </div>
+
+</section>
+        
+
+       
+
+     
+
+    
+
+</section>
+
+
+    </div>
+</section>
+         <section id="contact">
+
+    <h2>Contact <span>Me</span></h2>
+
+    <div class="contact-box">
+
+        <p> Email: sidharthkumar@gmail.com</p>
+        <p> Phone: 9534521109</p>
+        <p>  Samastipur,Bihar, India</p>
+
+        <div class="links">
+            
+            <a href="#">whatsapp</a>
+            <a href="#">Instagram</a>
+        </div>
+
+    </div>
+
+         
+</body>
+</html>
